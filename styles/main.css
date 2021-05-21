@@ -586,7 +586,6 @@ body {
   margin: 10px 0;
   min-width: 227.73px;
   border-radius: 5px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
 
 .phone-contact-footer:hover {
@@ -594,7 +593,6 @@ body {
 }
 
 .wa-contact-footer {
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   border-radius: 7px;
 }
 
@@ -654,7 +652,6 @@ body {
 
 .tg-contact-footer {
   border-radius: 7px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 }
 
 .p-copyright-footer {
@@ -1621,7 +1618,6 @@ body {
     margin: 10px 0;
     min-width: 220.73px;
     border-radius: 5px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
   }
 
   .phone-contact-footer:hover {
