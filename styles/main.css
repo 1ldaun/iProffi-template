@@ -396,6 +396,13 @@ ul {
   padding-right: 0.9375rem;
 }
 
+input[type=text] {
+  /* Remove First */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
 html {
   background-color: #F8F8F7;
   font-family: 'Open Sans', sans-serif;
@@ -405,12 +412,16 @@ html {
 body {
   display: grid;
   grid-template-columns: repeat(24, 1fr);
-  grid-template-rows: 1fr 2fr 1fr;
-  grid-row-gap: 2rem;
+  grid-template-rows: 71px 2fr 235px;
+  grid-row-gap: 43px;
   grid-column-gap: 1rem;
   justify-content: space-between;
   align-items: center;
   height: 100%;
+}
+
+.body-sign-in {
+  grid-row-gap: 56px;
 }
 
 * {
@@ -561,7 +572,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #3B7BF6;
+  color: #2979FF;
   font-weight: 600;
 }
 
@@ -680,7 +691,7 @@ body {
 /* sing-in */
 
 .content-sign-in {
-  padding: 100px 0 0 0;
+  padding: 0;
   grid-column: 10 / 16;
 }
 
@@ -721,8 +732,8 @@ body {
 }
 
 .h3-sign-in {
-  line-height: 30px;
   text-align: center;
+  margin-bottom: 15px;
 }
 
 .div-form-sign-in {
@@ -742,9 +753,8 @@ body {
 .input-sign-in {
   width: 100%;
   height: 45px;
+  border: 1px solid #CECECE;
   border-radius: 5px;
-  border-color: #CECECE;
-  border-style: solid;
 }
 
 .div-button-sign-in {
@@ -834,7 +844,7 @@ body {
 }
 
 .content-register {
-  padding: 100px 0;
+  padding: 0;
   grid-column: 10 / 16;
 }
 
@@ -847,7 +857,7 @@ body {
 }
 
 .catalog-content-h2 {
-  padding: 10px 0 25px 0;
+  padding: 10px 0 30px 0;
 }
 
 .catalog-content-cards {
@@ -875,8 +885,8 @@ body {
 
 .bought-img-mask {
   position: absolute;
-  width: 100%;
-  left: 0;
+  width: 100.1%;
+  left: -0.413px;
   top: 0;
 }
 
@@ -1114,12 +1124,13 @@ body {
 
 .back_arrow:hover {
   background-color: #EBEBEA;
+  border-radius: 6px;
 }
 
 .current_course-head {
   display: flex;
   align-items: center;
-  margin: 0 0 34px 0;
+  margin: 0 0 52px 0;
 }
 
 .current_course-h2 {
@@ -1134,7 +1145,7 @@ body {
 
 .current_course-cards {
   display: grid;
-  grid-column-gap: 1rem;
+  grid-column-gap: 1.7rem;
   grid-row-gap: 2rem;
   grid-template-columns: repeat(auto-fill, 75px);
   justify-content: center;
@@ -1240,7 +1251,7 @@ body {
   grid-column: 1 / 5;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   height: 67px;
   margin-bottom: 30px;
 }
@@ -1321,6 +1332,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 0 5px;
+  font-size: 16px;
 }
 
 .edit-button:hover {
@@ -1384,6 +1396,15 @@ body {
   display: none;
 }
 
+.div-personal-data-register {
+  margin-top: 25px;
+}
+
+.personal-data-register {
+  display: inline-grid;
+  line-height: 18px;
+}
+
 @media screen and (min-width: 36rem) {
   .container {
     max-width: 31.875rem;
@@ -1439,7 +1460,7 @@ body {
 
 @media screen and (max-width: 1000px) {
   body {
-    grid-template-columns: 1rem 1fr 1fr 1fr 1rem;
+    grid-template-columns: 20px 1fr 1fr 1fr 20px;
   }
 
   .h1-sb {
@@ -1622,11 +1643,15 @@ body {
   }
 
   .catalog-card-desc {
-    padding: 10px 8px;
+    padding: 26px;
   }
 
   .catalog-card-info {
-    padding: 10px 8px;
+    padding: 26px;
+  }
+
+  .catalog-card-info-img {
+    margin-right: 19px;
   }
 
   .catalog-card-desc-h3 {
@@ -1639,10 +1664,15 @@ body {
 
   .catalog-card-info-p {
     margin: 0 0 0 10px;
+    line-height: 20px;
+  }
+
+  .catalog-card-duration {
+    font-size: 11px;
   }
 
   .content-sign-in {
-    padding: 50px 0 0 0;
+    padding: 0;
     grid-column: 2 / 5;
   }
 
@@ -1657,7 +1687,7 @@ body {
   }
 
   .a-div-close {
-    padding: 20px;
+    padding: 20px 0 20px 20px;
     grid-row: 1;
     grid-column: 4;
     margin: 0 0 0 auto;
@@ -1673,7 +1703,8 @@ body {
   }
 
   .label-sign-in {
-    padding: 30px 0 10px 0;
+    padding: 25px 0 10px 0;
+    font-weight: 300;
   }
 
   .input-sign-in {
@@ -1693,7 +1724,7 @@ body {
   }
 
   .content-register {
-    padding: 100px 0;
+    padding: 0;
     grid-column: 2 / 5;
   }
 
@@ -1761,12 +1792,15 @@ body {
   }
 
   .my_course-content {
-    grid-column: 1 / 6;
+    grid-column: 2 / 5;
+    padding: 0;
   }
 
   .buy_course_block {
+    grid-template-rows: 40px 1fr 1fr 40px;
     grid-column: 1 / 13;
     height: 200px;
+    margin-top: 22px;
   }
 
   .buy_course_block-a {
@@ -1789,16 +1823,25 @@ body {
   .current_course-h2,
   .current_course-author {
     grid-column: 2;
+    margin: 0;
   }
 
   .current_course-cards {
     margin-bottom: 50px;
+  }
+
+  .bought-img-mask {
+    position: absolute;
+    width: 100.1%;
+    left: -0.413px;
+    top: -0.215px;
   }
 }
 
 @media screen and (max-width: 450px) {
   body {
     grid-template-columns: 1rem 0.7fr 1.6fr 0.7fr 1rem;
+    grid-row-gap: 45px;
   }
 
   .phone-contact-footer {
@@ -1828,12 +1871,28 @@ body {
     text-align: center;
   }
 
+  .wa-contact-footer {
+    box-shadow: none;
+  }
+
+  .tg-contact-footer {
+    box-shadow: none;
+  }
+
+  .phone-contact-footer {
+    box-shadow: none;
+  }
+
   .catalog-content-cards {
     grid-template-columns: 1fr;
   }
 
   .catalog-card-info {
     min-height: 410px;
+  }
+
+  .w300 {
+    font-weight: 300;
   }
 }
 /*# sourceMappingURL=maps/main.css.map */
