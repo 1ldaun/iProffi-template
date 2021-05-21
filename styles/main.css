@@ -1829,8 +1829,9 @@ body {
   .bought-img-mask {
     position: absolute;
     width: 100.1%;
-    left: -0.413px;
-    top: -0.215px;
+    width: 100.4%;
+    left: -0.4125px;
+    top: -0.4125px;
   }
 }
 
