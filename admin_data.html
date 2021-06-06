@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>gulp-scss-starter</title>
+  <meta name="theme-color" content="#fff">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body class="catalog-body">
+  <div class="header">
+  <a href="#" class="header-logo"><img src="img/logo2x.png" alt="" class="header-logo"></a>
+  <img src="img/toggle-menu.png" alt="" class="header-toggle-menu">
+  <div class="mask-header-mobile-menu">
+  <ul class="header-mobile-menu">
+    <a href="#" class="header-mobile-profile">
+      <img src="img/profile2x.png" alt="" class="header-profile-img">
+      <div class="header-profile-info">
+      <p class="text-reg-1 header-profile-name">Джонни Депп  </p>
+      <p class="text-reg-2 header-profile-city">Новосибирск</p>
+      </div>
+    </a>
+    <li class="header-menu-li header-menu-li-active"><a href="catalog.html" class="header-menu-a"><img src="img/myCatalog.png" alt="" class="myCatalog"><img src="img/myCatalog-active.png" alt="" class="myCatalog-active">Каталог</a></li>
+    <li class="header-menu-li"><a href="#" class="header-menu-a"><img src="img/myCourse.png" alt="" class="myCourse"><img src="img/myCourse-active.png" alt="" class="myCourse-active">Мои курсы</a></li>
+    <li class="header-menu-li"><a href="#" class="header-menu-a"><img src="img/myTask.png" alt="" class="myTask"><img src="img/myTask-active.png" alt="" class="myTask-active">Мои задания</a></li>
+    <li class="header-menu-li header-mobile-menu-logout"><a href="#" class="header-menu-a"><img src="img/logout.png" alt="" class="logout-img">Выйти</a></li>
+  </ul>
+    <a href="#" class="close-header-mobile"><img src="img/closeMobileMenu.png" alt=""></a>
+  </div>
+  <ul class="header-menu">
+    <li class="header-menu-li header-menu-li-active"><a href="catalog.html" class="header-menu-a">Каталог</a></li>
+    <li class="header-menu-li"><a href="#" class="header-menu-a">Мои курсы</a></li>
+    <li class="header-menu-li"><a href="#" class="header-menu-a">Мои задания</a></li>
+  </ul>
+  <a href="#" class="header-profile">
+    <img src="img/profile2x.png" alt="" class="header-profile-img">
+    <div class="header-profile-info">
+    <p class="text-reg-1 header-profile-name">Джонни Депп</p>
+    <p class="text-reg-2 header-profile-city">Москва</p>
+    </div>
+  </a>
+</div>
+
+  <div class="catalog-content">
+    <h2 class="h2-sb">Администрация</h2>
+    <ul class="admin-nav">
+      <a href="" class="admin-nav-a">
+        <li class="admin-nav-li text-reg-2">Статистика</li>
+      </a>
+      <a href="" class="admin-nav-a">
+        <li class="admin-nav-li text-reg-2">Курсы</li>
+      </a>
+      <a href="" class="admin-nav-a">
+        <li class="admin-nav-li text-reg-2">Админы</li>
+      </a>
+      <a href="" class="admin-nav-a">
+        <li class="admin-nav-li text-reg-2">Учителя</li>
+      </a>
+      <a href="" class="admin-nav-a">
+        <li class="admin-nav-li text-reg-2">Ученики</li>
+      </a>
+      <a href="" class="admin-nav-a">
+        <li class="admin-nav-li text-reg-2">Контакты</li>
+      </a>
+      <a href="" class="admin-nav-a">
+        <li class="admin-nav-li text-reg-2">Технический контент</li>
+      </a>
+    </ul>
+    <div class="admin-stats">
+      <p class="text-reg-1 h-stats">Статистика</p>
+      <div class="admin-stats-div">
+        <h2 class="h2-sb admin-stats-div-number">438</h2>
+        <p class="admin-stats-div-p text-reg-2">Всего пользователей зарегистрированно</p>
+      </div>
+
+      <div class="admin-stats-div">
+        <h2 class="h2-sb admin-stats-div-number">438</h2>
+        <p class="admin-stats-div-p text-reg-2">Всего пользователей зарегистрированно</p>
+      </div>
+
+      <div class="admin-stats-div">
+        <h2 class="h2-sb admin-stats-div-number">438</h2>
+        <p class="admin-stats-div-p text-reg-2">Всего пользователей зарегистрированно</p>
+      </div>
+
+      <div class="admin-stats-div">
+        <h2 class="h2-sb admin-stats-div-number">438</h2>
+        <p class="admin-stats-div-p text-reg-2">Всего пользователей зарегистрированно</p>
+      </div>
+    </div>
+
+    <div class="admin-courses">
+      <button class="add_course-button text-reg-2"><img src="img/plus-white.svg" alt="" style="margin-right: 13px"> Добавить курс</button>
+      <div class="catalog-card">
+        <img src="img/card12x.png" alt="" class="catalog-card-img">
+        <div class="catalog-card-desc">
+          <div class="catalog-card-desc-text">
+            <div>
+              <h3 class="h3-sb catalog-card-desc-h3">Бизнес-аналитик с нуля</h3>
+              <p class="text-reg-2 catalog-card-desc-p">Уникальная онлайн-программа по освоению профессии с нуля</p>
+            </div>
+            <p class="catalog-card-duration">1 месяц</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="catalog-card">
+        <img src="img/card12x.png" alt="" class="catalog-card-img">
+        <div class="catalog-card-desc">
+          <div class="catalog-card-desc-text">
+            <div>
+              <h3 class="h3-sb catalog-card-desc-h3">Бизнес-аналитик с нуля</h3>
+              <p class="text-reg-2 catalog-card-desc-p">Уникальная онлайн-программа по освоению профессии с нуля</p>
+            </div>
+            <p class="catalog-card-duration">1 месяц</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="catalog-card">
+        <img src="img/card12x.png" alt="" class="catalog-card-img">
+        <div class="catalog-card-desc">
+          <div class="catalog-card-desc-text">
+            <div>
+              <h3 class="h3-sb catalog-card-desc-h3">Бизнес-аналитик с нуля</h3>
+              <p class="text-reg-2 catalog-card-desc-p">Уникальная онлайн-программа по освоению профессии с нуля</p>
+            </div>
+            <p class="catalog-card-duration">1 месяц</p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="admin-admins">
+      <p class="text-reg-1 h-stats">Администраторы (3)</p>
+      <button class="admins-button text-reg-2"><img src="img/plus-white.svg" alt="" style="margin: 10px 10px 10px 4px"> Добавить администратора</button>
+      <div class="mobile-table">
+        <table class="iksweb text-reg-2">
+          <thead>
+            <tr>
+              <th>
+                <p class="admins-p">Регистрация</p>
+                <select class="admins-select">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                </select>
+              </th>
+              <th>
+                <p class="admins-p">Имя Фамилия</p>
+                <input type="text" class="admins-input">
+              </th>
+              <th>
+                <p class="admins-p">E-mail</p>
+                <input type="text" class="admins-input">
+              </th>
+              <th>
+                <p class="admins-p">Телефон</p>
+                <input type="text" class="admins-input">
+              </th>
+            </tr>
+          </thead>
+          <tbody class="text-reg-2">
+            <tr>
+              <td>05.04.2021</td>
+              <td>Елена Фролова</td>
+              <td>Ivanovmail@gmail.com</td>
+              <td>+7 (903) 123-45-67</td>
+            </tr>
+            <tr>
+              <td>05.04.2021</td>
+              <td>Елена Фролова</td>
+              <td>Ivanovmail@gmail.com</td>
+              <td>+7 (903) 123-45-67</td>
+            </tr>
+            <tr>
+              <td>05.04.2021</td>
+              <td>Елена Фролова</td>
+              <td>Ivanovmail@gmail.com</td>
+              <td>+7 (903) 123-45-67</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="admin-teachers">
+      <p class="text-reg-1 h-stats">Учителя (3)</p>
+      <button class="teachers-button text-reg-2"><img src="img/plus-white.svg" alt="" style="margin: 10px 10px 7px 4px"> Добавить учителя</button>
+      <div class="mobile-table">
+        <table class="iksweb text-reg-2">
+          <thead>
+            <tr>
+              <th>
+                <p class="admins-p">Регистрация</p>
+                <select class="admins-select">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                </select>
+              </th>
+              <th>
+                <p class="admins-p">Имя Фамилия</p>
+                <input type="text" class="admins-input">
+              </th>
+              <th>
+                <p class="admins-p">E-mail</p>
+                <input type="text" class="admins-input">
+              </th>
+              <th>
+                <p class="admins-p">Телефон</p>
+                <input type="text" class="admins-input">
+              </th>
+              <th>
+                <p class="admins-p">Курсы</p>
+                <select class="admins-select">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                </select>
+              </th>
+            </tr>
+          </thead>
+          <tbody class="text-reg-2">
+            <tr>
+              <td>05.04.2021</td>
+              <td>Елена Фролова</td>
+              <td>Ivanovmail@gmail.com</td>
+              <td>+7 (903) 123-45-67</td>
+              <td>+7 (903) 123-45-67</td>
+            </tr>
+            <tr>
+              <td>05.04.2021</td>
+              <td>Елена Фролова</td>
+              <td>Ivanovmail@gmail.com</td>
+              <td>+7 (903) 123-45-67</td>
+              <td>+7 (903) 123-45-67</td>
+            </tr>
+            <tr>
+              <td>05.04.2021</td>
+              <td>Елена Фролова</td>
+              <td>Ivanovmail@gmail.com</td>
+              <td>+7 (903) 123-45-67</td>
+              <td>+7 (903) 123-45-67</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="admin-pupils inactive">
+      <div class="pupils-nav">
+        <p class="text-reg-1 h-stats">В статусе ученика или заявки (11)</p>
+        <p class="text-reg-1 h-stats h-stats-inactive">В архиве прошли обучение (87)</p>
+      </div>
+      <button class="teachers-button text-reg-2"><img src="img/plus-white.svg" alt="" style="margin: 10px 10px 7px 4px"> Добавить учителя</button>
+      <div class="mobile-table inactive">
+        <table class="iksweb text-reg-2">
+          <thead>
+            <tr>
+              <th>
+                <p class="admins-p">Регистрация</p>
+                <select class="admins-select">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                </select>
+              </th>
+              <th>
+                <p class="admins-p">Имя Фамилия</p>
+                <input type="text" class="admins-input">
+              </th>
+              <th>
+                <p class="admins-p">E-mail</p>
+                <input type="text" class="admins-input">
+              </th>
+              <th>
+                <p class="admins-p">Телефон</p>
+                <input type="text" class="admins-input">
+              </th>
+              <th>
+                <p class="admins-p">Курсы</p>
+                <select class="admins-select">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                </select>
+              </th>
+              <th>
+                <p class="admins-p">Статус</p>
+                <select class="admins-select">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                </select>
+              </th>
+            </tr>
+          </thead>
+          <tbody class="text-reg-2">
+            <tr>
+              <td>05.04.2021</td>
+              <td>Елена Фролова</td>
+              <td>Ivanovmail@gmail.com</td>
+              <td>+7 (903) 123-45-67</td>
+              <td>+7 (903) 123-45-67</td>
+              <td><div class="green-circle"></div>Учится</td>
+            </tr>
+            <tr>
+              <td>05.04.2021</td>
+              <td>Елена Фролова</td>
+              <td>Ivanovmail@gmail.com</td>
+              <td>+7 (903) 123-45-67</td>
+              <td>+7 (903) 123-45-67</td>
+              <td><div class="green-circle"></div>Учится</td>
+            </tr>
+            <tr>
+              <td>05.04.2021</td>
+              <td>Елена Фролова</td>
+              <td>Ivanovmail@gmail.com</td>
+              <td>+7 (903) 123-45-67</td>
+              <td>+7 (903) 123-45-67</td>
+              <td><div class="yellow-circle"></div>Заявка</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="mobile-table archive">
+        <table class="iksweb text-reg-2">
+          <thead>
+            <tr>
+              <th>
+                <p class="admins-p">Регистрация</p>
+                <select class="admins-select">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                </select>
+              </th>
+              <th>
+                <p class="admins-p">Имя Фамилия</p>
+                <input type="text" class="admins-input">
+              </th>
+              <th>
+                <p class="admins-p">E-mail</p>
+                <input type="text" class="admins-input">
+              </th>
+              <th>
+                <p class="admins-p">Телефон</p>
+                <input type="text" class="admins-input">
+              </th>
+              <th>
+                <p class="admins-p">Курсы</p>
+                <select class="admins-select">
+                  <option value="">1</option>
+                  <option value="">2</option>
+                </select>
+              </th>
+              <th>
+                <p class="admins-p">Статус</p>
+                <p class="in-archive text-reg-2">
+                  В архиве
+                </p>
+              </th>
+            </tr>
+          </thead>
+          <tbody class="text-reg-2">
+            <tr>
+              <td>05.04.2021</td>
+              <td>Елена Фролова</td>
+              <td>Ivanovmail@gmail.com</td>
+              <td>+7 (903) 123-45-67</td>
+              <td>+7 (903) 123-45-67</td>
+              <td><div class="gray-circle"></div>Архив</td>
+            </tr>
+            <tr>
+              <td>05.04.2021</td>
+              <td>Елена Фролова</td>
+              <td>Ivanovmail@gmail.com</td>
+              <td>+7 (903) 123-45-67</td>
+              <td>+7 (903) 123-45-67</td>
+              <td><div class="gray-circle"></div>Архив</td>
+            </tr>
+            <tr>
+              <td>05.04.2021</td>
+              <td>Елена Фролова</td>
+              <td>Ivanovmail@gmail.com</td>
+              <td>+7 (903) 123-45-67</td>
+              <td>+7 (903) 123-45-67</td>
+              <td><div class="gray-circle"></div>Архив</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="admin-contacts inactive">
+      <p class="text-reg-1 h-stats">Контакты связи</p>
+      <div class="admin-contacts-phones">
+
+        <div class="admin-contacts-phones-block">
+          <label for="" class="admin-contacts-phones-label">Телефон</label>
+          <input type="text" class="admin-contacts-phones-input">
+        </div>
+
+        <div class="admin-contacts-phones-block">
+          <label for="" class="admin-contacts-phones-label">WhatsApp</label>
+          <input type="text" class="admin-contacts-phones-input">
+        </div>
+
+        <div class="admin-contacts-phones-block">
+          <label for="" class="admin-contacts-phones-label">Telegram</label>
+          <input type="text" class="admin-contacts-phones-input">
+        </div>
+      </div>
+
+      <p class="text-reg-1 h-stats">Адреса электронной почты</p>
+      <div class="admin-contacts-phones admin-contacts-emails">
+
+        <div class="admin-contacts-phones-block">
+          <label for="" class="admin-contacts-phones-label">E-mail, общая информация </label>
+          <input type="text" class="admin-contacts-phones-input">
+        </div>
+
+        <div class="admin-contacts-phones-block">
+          <label for="" class="admin-contacts-phones-label">E-mail, заявки на обучение </label>
+          <input type="text" class="admin-contacts-phones-input">
+        </div>
+
+      </div>
+    </div>
+    <div class="admin-tech_content">
+      <p class="text-reg-1 h-stats">Технический контент</p>
+      <div class="tech_content">
+
+        <div class="tech_content-block">
+          <p class="tech_content-h">Условия обслуживания</p>
+          <p class="tech_content-p text-reg-2">Lorem ipsum dolor sit amet, consectetur adipiscing
+           elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+           aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+           sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+           mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore</p>
+          <a href="#" class="read-all">Читать все</a>
+          <img src="img/pen.svg" alt="" class="edit-tech_content-block">
+        </div>
+
+        <div class="tech_content-block">
+          <p class="tech_content-h">Условия обслуживания</p>
+          <p class="tech_content-p text-reg-2">Lorem ipsum dolor sit amet, consectetur adipiscing
+           elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+           aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+           sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+           mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore</p>
+          <a href="#" class="read-all">Читать все</a>
+          <img src="img/pen.svg" alt="" class="edit-tech_content-block">
+        </div>
+
+        <div class="tech_content-block">
+          <p class="tech_content-h">Условия обслуживания</p>
+          <p class="tech_content-p text-reg-2">Lorem ipsum dolor sit amet, consectetur adipiscing
+           elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+           aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+           sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+           mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore</p>
+          <a href="#" class="read-all">Читать все</a>
+          <img src="img/pen.svg" alt="" class="edit-tech_content-block">
+        </div>
+
+        <div class="tech_content-block">
+          <p class="tech_content-h">Условия обслуживания</p>
+          <p class="tech_content-p text-reg-2">Lorem ipsum dolor sit amet, consectetur adipiscing
+           elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+           aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+           sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+           mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore</p>
+          <a href="#" class="read-all">Читать все</a>
+          <img src="img/pen.svg" alt="" class="edit-tech_content-block">
+        </div>
+
+        <div class="tech_content-block">
+          <p class="tech_content-h">Условия обслуживания</p>
+          <p class="tech_content-p text-reg-2">Lorem ipsum dolor sit amet, consectetur adipiscing
+           elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+           aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+           sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+           mollit anim id est laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore</p>
+          <a href="#" class="read-all">Читать все</a>
+          <img src="img/pen.svg" alt="" class="edit-tech_content-block">
+        </div>
+      </div>
+    </div>
+
+    <div class="new-course">
+      <h2 class="h2-sb new-course-h2">Новый курс</h2>
+      <a class="a-div-close" href="#">
+        <div class="div-close">
+          <svg class="close" xmlns="http://www.w3.org/2000/svg" width="14.142" height="14.254" viewBox="0 0 14.142 14.254">
+            <g id="Сгруппировать_3184" data-name="Сгруппировать 3184" transform="translate(-361.929 -23.984)">
+              <line id="Линия_3" data-name="Линия 3" x2="19" transform="translate(362.282 37.885) rotate(-45)" fill="none" stroke="#212121" stroke-width="1" />
+              <line id="Линия_4" data-name="Линия 4" x2="19" transform="translate(362.282 24.337) rotate(45)" fill="none" stroke="#212121" stroke-width="1" />
+            </g>
+          </svg>
+        </div>
+      </a>
+      <form class="new-course-form">
+        <label for="" class="new-course-label">Название курса</label>
+        <input type="text" class="new-course-input inp-sz-2">
+
+        <label for="" class="new-course-label">Описание курса</label>
+        <textarea class="new-course-input inp-sz-2 new-course-input-desc">
+
+      </textarea>
+
+        <label for="" class="new-course-label">Цена</label>
+        <input type="text" class="new-course-input inp-sz-2">
+
+        <div class="new-course-block">
+          <label for="" class="new-course-label">Скидка</label>
+          <select type="text" class="new-course-input inp-sz-1">
+            <option>Пункт 1</option>
+            <option>Пункт 2</option>
+          </select>
+        </div>
+
+        <div class="new-course-block">
+          <label for="" class="new-course-label">Срок скидки</label>
+          <input type="text" class="new-course-input inp-sz-1">
+        </div>
+
+        <div class="new-course-block">
+          <label for="" class="new-course-label">Интервал уроков</label>
+          <select type="text" class="new-course-input inp-sz-1">
+            <option>Пункт 1</option>
+            <option>Пункт 2</option>
+          </select>
+        </div>
+
+        <div class="new-course-block">
+          <label for="" class="new-course-label">Период обучения</label>
+          <select type="text" class="new-course-input inp-sz-1">
+            <option>Пункт 1</option>
+            <option>Пункт 2</option>
+          </select>
+        </div>
+
+        <label for="" class="new-course-label">Преподаватели (пользователь / e-mail)</label>
+        <select type="text" class="new-course-input inp-sz-2">
+          <option>Пункт 1</option>
+          <option>Пункт 2</option>
+        </select>
+      </form>
+      <div class="add-video-div">
+        <p class="add-video-header">Видеоуроки (15)</p>
+        <div class="add-video">
+          <div class="current_course-card">
+            <div class="current_course-card-img">
+              <img src="img/video_blue.svg" alt="" class="">
+            </div>
+          </div>
+
+          <div class="current_course-card">
+            <div class="current_course-card-img">
+              <img src="img/video_blue.svg" alt="" class="">
+            </div>
+          </div>
+
+          <div class="current_course-card">
+            <div class="current_course-card-img">
+              <img src="img/video_blue.svg" alt="" class="">
+            </div>
+          </div>
+
+          <div class="current_course-card">
+            <div class="current_course-card-img">
+              <img src="img/video_blue.svg" alt="" class="">
+            </div>
+          </div>
+
+          <div class="current_course-card">
+            <div class="current_course-card-img">
+              <img src="img/video_blue.svg" alt="" class="">
+            </div>
+          </div>
+
+          <div class="current_course-card">
+            <div class="current_course-card-img">
+              <img src="img/video_blue.svg" alt="" class="">
+            </div>
+          </div>
+
+          <div class="current_course-card">
+            <div class="current_course-card-img">
+              <img src="img/video_blue.svg" alt="" class="">
+            </div>
+          </div>
+
+          <div class="current_course-card">
+            <div class="current_course-card-img">
+              <img src="img/video_blue.svg" alt="" class="">
+            </div>
+          </div>
+
+          <div class="current_course-card">
+            <div class="current_course-card-img">
+              <img src="img/video_blue.svg" alt="" class="">
+            </div>
+          </div>
+
+          <div class="current_course-card">
+            <div class="current_course-card-img">
+              <img src="img/video_blue.svg" alt="" class="">
+            </div>
+          </div>
+
+          <div class="current_course-card">
+            <div class="current_course-card-img" style="background-color: #2979FF; padding: 25px 27.5px 21px 27.5px;">
+              <img src="img/plus-white.svg" alt="" class="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="format-lending-course">
+        <p class="format-lending-header">Форматировать Lending курса</p>
+        <div class="lending">
+          <button class="lending-button text-reg-2">Lending курса</button>
+        </div>
+      </div>
+      <button class="save-new-course">Сохранить курс</button>
+    </div>
+
+    <div class="new-admin">
+      <h2 class="h2-sb new-course-h2 new-admin-h2">Новый администратор</h2>
+      <a class="a-div-close" href="#">
+        <div class="div-close">
+          <svg class="close" xmlns="http://www.w3.org/2000/svg" width="14.142" height="14.254" viewBox="0 0 14.142 14.254">
+            <g id="Сгруппировать_3184" data-name="Сгруппировать 3184" transform="translate(-361.929 -23.984)">
+              <line id="Линия_3" data-name="Линия 3" x2="19" transform="translate(362.282 37.885) rotate(-45)" fill="none" stroke="#212121" stroke-width="1" />
+              <line id="Линия_4" data-name="Линия 4" x2="19" transform="translate(362.282 24.337) rotate(45)" fill="none" stroke="#212121" stroke-width="1" />
+            </g>
+          </svg>
+        </div>
+      </a>
+      <p class="admins-p new-admin-p text-reg-2">Пользователь / E-mail</p>
+      <select class="admins-select new-admin-select">
+        <option value="">1</option>
+        <option value="">2</option>
+      </select>
+      <button class="save-new-course save-new-admin">Сохранить</button>
+    </div>
+
+    <div class="new-teacher">
+      <h2 class="h2-sb new-course-h2 new-teacher-h2">Новый учитель</h2>
+      <a class="a-div-close" href="#">
+        <div class="div-close">
+          <svg class="close" xmlns="http://www.w3.org/2000/svg" width="14.142" height="14.254" viewBox="0 0 14.142 14.254">
+            <g id="Сгруппировать_3184" data-name="Сгруппировать 3184" transform="translate(-361.929 -23.984)">
+              <line id="Линия_3" data-name="Линия 3" x2="19" transform="translate(362.282 37.885) rotate(-45)" fill="none" stroke="#212121" stroke-width="1" />
+              <line id="Линия_4" data-name="Линия 4" x2="19" transform="translate(362.282 24.337) rotate(45)" fill="none" stroke="#212121" stroke-width="1" />
+            </g>
+          </svg>
+        </div>
+      </a>
+
+      <p class="admins-p new-teacher-p text-reg-2">Пользователь / E-mail</p>
+      <select class="admins-select new-admin-select">
+        <option value="">1</option>
+        <option value="">2</option>
+      </select>
+
+      <p class="admins-p new-teacher-p-2 text-reg-2">Выбрать курсы</p>
+      <select class="admins-select new-teacher-select-2">
+        <option value="">1</option>
+        <option value="">2</option>
+      </select>
+
+      <button class="save-new-course save-new-teacher">Добавить</button>
+    </div>
+  </div>
+  <div class="footer">
+  <div class="contact-footer">
+    <div class="phone-contact-footer">
+    <p class="p-phone-contact-footer">8 (800) - 222 - 33 - 00</p>
+    </div>
+    <a class="a-wa-contact-footer" href="#">
+      <img class="wa-contact-footer" src="img/wa.png" alt="">
+    <div class="wa_mask"></div>
+  </a>
+  <a class="a-tg-contact-footer" href="#">
+    <img class="tg-contact-footer" src="img/tg.png" alt="">
+  <div class="wa_mask"></div>
+</a>
+  </div>
+  <div class="text-reg-2 question-footer">
+    Если у вас есть вопросы относительно курсов или предложения сотрудничества, мы всегда на связи.
+  </div>
+  <div class="copyright-footer">
+  <p class="text-reg-3 p-copyright-footer">Все права защищены. © 2021 iPROFFI</p>
+  <ul class="ul-copyright-footer">
+    <li><a href="#" class="text-reg-3 a-copyright-footer">Условия обслуживания</a></li>
+    <li>|</li>
+    <li><a href="#" class="text-reg-3 a-copyright-footer">Конфиденциальность</a></li>
+    <li>|</li>
+    <li class="author-ul-copyright-footer"><a href="#" class="text-reg-3 a-copyright-footer">Авторское право</a></li>
+    </ul>
+  </div>
+</div>
+
+  <script src="js/main.js"></script>
+  <script src="js/vendor.js"></script>
+</body>
+
+</html>
