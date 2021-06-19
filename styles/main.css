@@ -3334,6 +3334,11 @@ p {
     grid-column: 2 / 5;
   }
 
+  .admin-pupils tr {
+    display: grid;
+    grid-template-columns: 150px 160px 180px 150px 150px 105px;
+  }
+
   .header-1 {
     grid-column: 3;
     height: 75px;
